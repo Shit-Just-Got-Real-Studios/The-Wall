@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8B5B360C-FEE1-E8D5-1C46-3899C3107A55}</ProjectGuid>
+    <ProjectGuid>{D29AB619-B5D8-46B1-1E73-AC31C77380A2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -47,6 +47,8 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AI\AIScript.cs" />
      <Compile Include="Assets\Scripts\AI\AIVehicleScript.cs" />
+     <Compile Include="Assets\Scripts\AI\FriendlyArcher.cs" />
+     <Compile Include="Assets\Scripts\AI\FriendlyArcherBowScript.cs" />
      <Compile Include="Assets\Scripts\Game Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Game Scripts\MainCameraEnable.cs" />
      <Compile Include="Assets\Scripts\Game Scripts\MatchSettings.cs" />
@@ -83,7 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{D8BFCB99-F998-44FE-91E9-EB7EB5A27A96}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{DCA8E050-3193-EAB8-C21E-68C317A6A109}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
