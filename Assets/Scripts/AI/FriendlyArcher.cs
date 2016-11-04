@@ -31,7 +31,7 @@ public class FriendlyArcher : MonoBehaviour {
 	}
 
 	void Update () {
-		if (enemyTagged == null)
+		if (enemyTagged == null || enemyTagged.Equals(null))
 			SearchTarget ();
 		else if (enemyTagged.tag == "ZombieBOT")
 			AttackEnemy ();
