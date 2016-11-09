@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ZombieSpawner : MonoBehaviour {
 	[SerializeField]
-	private GameObject zombie;
+	private Transform zombie;
 
 	[SerializeField]
 	private Transform[] spawnPoints;
@@ -20,7 +20,7 @@ public class ZombieSpawner : MonoBehaviour {
 		int randSpawn = Random.Range (0, spawnPoints.Length);
 		int playerCount = GameManager.players.Count;
 		if (playerCount >= 1) {
-			Instantiate (zombie, spawnPoints [randSpawn].position, spawnPoints [randSpawn].rotation);
+			Instantiate (zombie, new Vector3 (spawnPoints [randSpawn].position.x, 0.0f, spawnPoints [randSpawn].position.z), spawnPoints [randSpawn].rotation);
 			counter += 1;
 		}
 	}
