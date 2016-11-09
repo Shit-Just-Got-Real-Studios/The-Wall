@@ -1,0 +1,9 @@
+AUTHOR: l0fty-WhizZ
+** ACHIEVED **
+1) Made a primitive friendly archer bot, who finds an enemy to attack, and tries to kill it, and after killing it, looks for another enemy.
+2) Modified the box colliders for Zombie bots to be used with the Friendly archers.
+
+** TO BE ACHIEVED **
+1) Change arrow instantiation method, arrow should show on the bow before shooting also.
+2) Add more friendly archers into the game.
+3) Work on the swordsmen friendly bots.
