@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\PlayerSetup.cs">
     <Files>
-      <File FileName="Assets\Scripts\Player\PlayerSetup.cs" Line="48" Column="1" />
+      <File FileName="Assets\Scripts\Player\PlayerSetup.cs" Line="49" Column="1" />
       <File FileName="Assets\Scripts\AI\FriendlyArcher.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\AI\FriendlyArcherBowScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Spawner\ZombieSpawner.cs" Line="1" Column="1" />
