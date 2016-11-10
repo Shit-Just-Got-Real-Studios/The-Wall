@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour {
 		motor = GetComponent<PlayerMotor> ();
 		//joint = GetComponent<ConfigurableJoint> ();
 		//SetJointSettings (jointSpring);
-		Physics.gravity *= 2;
+		Physics.gravity *= 5;
 	}
 
 	void Update () {
