@@ -10,12 +10,26 @@ public class BowScript : MonoBehaviour {
 	private GameObject arrow;
 
 	private bool shot = false;
+
+	private ArrowScript ascr;
+	void Start() {
+		ascr = arrow.GetComponent<ArrowScript> ();
+	}
+
 	void Update () {
+		if (!ascr.shot) {
+			GameObject clone = (GameObject)Instantiate (arrow, spawnTransform.position, spawnTransform.rotation);
+			clone.transform.SetParent (transform);
+			ascr.shot = true;
+		}
+		if (!shot) {
+			arrow.transform.position = spawnTransform.position;
+		}
 		if (Input.GetMouseButtonDown(0) && !shot) {
 			shot = true;
 		}
 		if (shot) {
-			Instantiate (arrow, spawnTransform.position, spawnTransform.rotation);
+			ascr.temp = 1;
 			shot = false;
 		}
 	}
